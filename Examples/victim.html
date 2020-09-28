@@ -1,0 +1,11 @@
+
+<script>
+window.addEventListener("message", (event) => {
+
+if(event.data == "GetToken"){
+console.log('message received:  ' + event.data);
+
+event.source.postMessage("user secret token is: XXXXX",event.origin);
+}
+}, false);
+</script>
