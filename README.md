@@ -11,3 +11,11 @@ before installing.
 
 ## Usage
 After plugin activation Burp will automatically inform us about potential postMessage risks by reporting Issues.
+
+
+Example:
+
+![alt text](https://github.com/mariuszpoplawski/postMessage-Detector-Burp-Extension/blob/master/1.png?raw=true)
+![alt text](https://github.com/mariuszpoplawski/postMessage-Detector-Burp-Extension/blob/master/2.png?raw=true)
+![alt text](https://github.com/mariuszpoplawski/postMessage-Detector-Burp-Extension/blob/master/3.png?raw=true)
+
