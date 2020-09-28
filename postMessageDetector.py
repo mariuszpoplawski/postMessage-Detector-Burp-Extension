@@ -1,5 +1,5 @@
 #
-#  postMessage issue detector - Find postMessage client side issues
+#  postMessage issue detector v0.1 - Find postMessage client side issues
 #
 #  Copyright (c) 2020 Mariusz Poplawski from afine.pl team (mpoplawski@afine.pl)
 #
