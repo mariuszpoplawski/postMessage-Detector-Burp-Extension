@@ -15,7 +15,9 @@ After plugin activation Burp will automatically inform us about potential postMe
 
 Example:
 
-![alt text](https://github.com/mariuszpoplawski/postMessage-Detector-Burp-Extension/blob/master/1.png?raw=true){:height="50%" width="50%"}
-![alt text](https://github.com/mariuszpoplawski/postMessage-Detector-Burp-Extension/blob/master/2.png?raw=true){:height="50%" width="50%"}
-![alt text](https://github.com/mariuszpoplawski/postMessage-Detector-Burp-Extension/blob/master/3.png?raw=true){:height="50%" width="50%"}
+![alt image size](https://github.com/mariuszpoplawski/postMessage-Detector-Burp-Extension/blob/master/1.png?raw=true){:height="50%" width="50%"}
+
+![alt text](https://github.com/mariuszpoplawski/postMessage-Detector-Burp-Extension/blob/master/1.png?raw=true)
+![alt text](https://github.com/mariuszpoplawski/postMessage-Detector-Burp-Extension/blob/master/2.png?raw=true)
+![alt text](https://github.com/mariuszpoplawski/postMessage-Detector-Burp-Extension/blob/master/3.png?raw=true)
 
