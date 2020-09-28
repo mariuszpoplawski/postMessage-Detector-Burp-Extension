@@ -189,17 +189,23 @@ class Analyse():
         return data
 
 
-    def findPmData(self,match):
-        findDot = match.count(",")
+    def findPmData(self,match,CommaSeparator):
         data = ""
-        if findDot == 1:
-            data = match.split(",")[0]
+        if CommaSeparator:
+            findDot = match.count(",")
+            
+            if findDot == 1:
+                data = match.split(",")[0]
+            else:
+                for i in range (0,findDot):
+                    if not data:
+                        data = match.split(",")[i]
+                    else:
+                        data = data +","+ match.split(",")[i]
         else:
-            for i in range (0,findDot):
-                if not data:
-                    data = match.split(",")[i]
-                else:
-                    data = data +","+ match.split(",")[i]
+            data = match.split(");")[0]
+
+
         data = data.replace("postmessage(","")
 
         return self.CheckValidDataInside(data)
@@ -259,9 +265,11 @@ class Analyse():
                     
                     #logger.outputTxtArea.append("\n"+str(match))
                     if not "," in match:
-                        continue
-                    PMscope = self.findScope(match)
-                    PMData = self.findPmData(match)
+                        PMData = self.findPmData(match,False)
+                        PMscope = "Null"
+                    else:
+                        PMscope = self.findScope(match)
+                        PMData = self.findPmData(match,True)
 
                     if PMData == 0 or PMData == "0" or PMData == "" or PMData == "\"\"" or PMData == "''":
                         continue 
