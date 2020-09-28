@@ -15,11 +15,12 @@ After plugin activation Burp will automatically inform us about potential postMe
 # Features
 - Detect postMessage in each response of HTTP history
 - Find multi postMessage if more then one exists in response
-- Check scope and data sent (if scope is *) report as vulnerability, in case variable is set as scope report as potential rist for manual check.
+- Check scope and data sent (if scope is * report as vulnerability) / (in case variable is set as scope, report as potential rist for manual check)
 
 # TODO
 - Auto search for variables in target that resposne for sent data and scope (check if user cotrols the variables) (Still not implemented)
 - Try to exploit potential vulnerability with local listenner (Still not implemented)
+
 
 
 Example:<br>
