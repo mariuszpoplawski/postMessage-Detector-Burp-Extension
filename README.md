@@ -1,6 +1,6 @@
 # postMessage Detector Burp Extension
 
-## postMessage issue finnder - find potential postMessages missconfiguration
+## postMessage issue finnder v0.1 - find potential postMessages missconfiguration
 Burp Extension for a passive scanning postMessages issues
  
 Copyright (c) 2020 Mariusz Poplawski from afine.pl team (mpoplawski@afine.pl)
